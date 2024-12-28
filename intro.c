@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Collaborator: PANAGIOTA_ANAGNOSTOPOULOU
+// Collaborator: YOURNAME
 int main() {
     int num1, num2, sum;
 
@@ -15,7 +15,7 @@ int main() {
     sum = num1 + num2;
 
     // Printing the result
-    printf("The sum of %δ and %d is %d\n", num1, num2, sum);
+    printf("The sum of %d and %d is %d\n", num1, num2, sum);
 
     return 0;
 }
