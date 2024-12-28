@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-// Collaborator: PANAGIOTA_ANAGNOSTOPOULOU
+// Collaborator: YOURNAME
 int main() {
-    int num1, num2, sum;
+    float num1, num2, sum;
 
     // Prompting user for input
     printf("Enter first number: ");
-    scanf("%d", &num1);
+    scanf("%f", &num1);
     
     printf("Enter second number: ");
-    scanf("%d", &num2)
+    scanf("%f", &num2);
 
     // Calculating summary of numbers
-    sum = num1 * num2;
+    sum = num1 + num2;
 
     // Printing the result
-    printf("The sum of %s and %d is %d\n", num1, num2, sum);
+    printf("The sum of %f and %f is %f\n", num1, num2, sum);
 
-    return 0
+    return 0;
 }
